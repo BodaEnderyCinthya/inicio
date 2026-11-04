@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cinthya & Ender — Nuestra Boda</title>
+<meta name="description" content="Cinthya & Ender se casan el 12 de junio de 2027 en Casa Aragón, Colombia. Confirma tu asistencia aquí.">
+
+<!-- Vista previa al compartir el enlace (WhatsApp, Facebook, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cinthya & Ender — ¡Nos casamos!">
+<meta property="og:description" content="12 de junio de 2027 · Casa Aragón, Colombia. Confirma tu asistencia.">
+<meta property="og:image" content="https://bodaenderycinthya.github.io/inicio/img/vista-previa.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://bodaenderycinthya.github.io/inicio/">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#e9dfcb">
+<meta name="color-scheme" content="light only">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%236e7c5d'>♡</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light only;
+  /* Paleta: Soft Sage, Beige, Champagne, Ivory */
+  --bg-color:#f8f3e6;      /* Ivory */
+  --panel-color:#fffdf7;   /* Ivory muy claro para recuadros */
+  --text-color:#3b3a33;
+  --accent-color:#6e7c5d;  /* Soft Sage oscuro: textos y botones (legible) */
+  --sage:#b4bfa3;          /* Soft Sage */
+  --champagne:#ead8b1;     /* Champagne */
+  --header-color:#e9dfcb;  /* Beige */
+  --line-color:rgba(110,124,93,.22);
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Lato',Arial,sans-serif;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg-color);color:var(--text-color);font-family:var(--serif)}
+img{max-width:100%;display:block}
+a:focus-visible,.button:focus-visible{outline:2px solid var(--accent-color);outline-offset:3px}
+
+header{position:sticky;top:0;z-index:10;height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;background:var(--header-color);gap:24px;border-bottom:1px solid var(--line-color)}
+.brand{font-family:var(--serif);letter-spacing:.22em;text-transform:uppercase;font-size:16px;white-space:nowrap}
+nav{display:flex;gap:25px;font-family:var(--sans);font-size:13px}
+nav a{color:var(--text-color);text-decoration:none;font-size:inherit;white-space:nowrap}
+nav a:hover{color:var(--accent-color)}
+
+.hero{min-height:490px;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:60px 9%;gap:28px;background:linear-gradient(110deg, var(--header-color), var(--bg-color))}
+.hero-copy{text-align:center}
+.eyebrow{letter-spacing:.32em;text-transform:uppercase;font-size:12px;font-family:var(--sans)}
+h1{font:400 clamp(48px,6vw,84px)/1.05 var(--serif);margin:24px 0;color:var(--text-color)}
+.logo{display:block;width:min(340px,80%);height:auto;margin:0 auto}
+.amp{color:var(--sage);font-style:italic}
+.rule{width:120px;height:2px;background:var(--sage);margin:25px auto}
+.tagline{font:italic 24px var(--serif)}
+.date{margin-top:25px;letter-spacing:.24em;font-size:12px;font-family:var(--sans);text-transform:uppercase;font-weight:700;color:var(--accent-color);line-height:1.8}
+
+.photo{width:100%;height:100%;min-height:360px;max-height:560px;object-fit:cover;border:1px solid var(--line-color);background:#e0e0e0}
+
+.quicklinks{display:grid;grid-template-columns:repeat(4,1fr);padding:34px 5%;background:var(--panel-color);font-family:var(--sans);border-bottom:1px solid var(--line-color)}
+.quicklinks a{text-align:center;padding:12px 8px;color:var(--text-color);text-decoration:none;border-right:1px solid var(--line-color);font-size:11px;letter-spacing:.17em;text-transform:uppercase;line-height:1.8}
+.quicklinks a:last-child{border:0}
+.quicklinks a:hover{color:var(--accent-color)}
+.symbol{display:block;color:var(--sage);font-size:27px;margin-bottom:8px}
+
+section.content{max-width:1050px;margin:0 auto;padding:60px 6%}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+h2{font:400 40px/1.15 var(--serif);margin:0 0 18px}
+h3{font:400 24px var(--serif);margin:0 0 6px}
+p{line-height:1.75;color:var(--text-color);opacity:.85;font-family:var(--sans);font-size:14px}
+.panel{background:var(--panel-color);padding:28px;border:1px solid var(--line-color)}
+.button{display:inline-block;padding:13px 20px;border:1px solid var(--accent-color);color:var(--text-color);text-decoration:none;margin:10px 8px 0 0;font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-family:var(--sans);background:none;cursor:pointer}
+.button:hover{background:var(--accent-color);border-color:var(--accent-color);color:#fff}
+.button.solid{background:var(--accent-color);color:#fff}
+.button.solid:hover{background:var(--text-color);border-color:var(--text-color)}
+
+/* Cuenta regresiva */
+.countdown{margin:24px 0;padding:26px 20px;background:var(--bg-color);border:1px solid var(--line-color);text-align:center;font-family:var(--sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;line-height:2.2}
+.countdown strong{font:500 40px/1 var(--serif);color:var(--accent-color);font-variant-numeric:tabular-nums;letter-spacing:0;margin-right:5px;vertical-align:-4px}
+.countdown{display:flex;justify-content:center;align-items:baseline;gap:22px}
+.countdown .u{white-space:nowrap}
+.countdown-done{font:italic 28px var(--serif);color:var(--accent-color);margin:24px 0}
+
+.schedule{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-family:var(--sans);font-size:14px;margin:0 0 10px}
+.schedule dt{font-weight:700;color:var(--accent-color)}
+.schedule dd{margin:0}
+
+.map-iframe{display:block;width:100%;height:280px;border:1px solid var(--line-color);margin-top:25px}
+
+/* Paleta de colores */
+.palette-container{margin-top:25px;padding-top:20px;border-top:1px solid var(--champagne)}
+.palette-grid{display:flex;gap:18px;flex-wrap:wrap;margin-top:15px}
+.palette-item{text-align:center;font-family:var(--sans);font-size:11px}
+.color-circle{width:44px;height:44px;border-radius:50%;border:1px solid rgba(0,0,0,.15);margin:0 auto 6px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+
+/* Formulario de asistencia (Tally ajusta su altura solo) */
+.panel-rsvp{background:#fff;padding:20px 24px;border:1px solid var(--line-color)}
+.panel-rsvp iframe{width:100%;border:0;min-height:300px;background:#fff;color-scheme:light}
+
+/* Galería */
+.gallery-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px;margin-bottom:20px}
+.gallery-head h2{margin:0}
+.gallery-head p{margin:5px 0 0}
+.gallery-head .button{margin:0}
+.upload-box{text-align:center}
+.upload-box small{display:block;margin-top:6px;font-family:var(--sans);font-size:11px;opacity:.7}
+.button.disabled{opacity:.45;cursor:not-allowed;pointer-events:none}
+/* Galería propia: solo para ver, sin botones de descarga */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.gallery button{padding:0;border:0;background:#eee;cursor:zoom-in;aspect-ratio:1;overflow:hidden}
+.gallery img,.lightbox img{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-user-drag:none;pointer-events:none}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.gallery button:hover img{transform:scale(1.04)}
+.gallery-msg{font-family:var(--sans);font-size:14px;opacity:.75;text-align:center;padding:40px 10px;border:1px dashed var(--line-color)}
+.gallery-more{display:block;margin:18px auto 0}
+.lightbox{position:fixed;inset:0;z-index:50;background:rgba(20,20,18,.94);display:none;align-items:center;justify-content:center}
+.lightbox.open{display:flex}
+.lightbox img{max-width:92vw;max-height:86vh;object-fit:contain}
+.lightbox button{position:absolute;background:none;border:0;color:#fff;font-size:38px;cursor:pointer;padding:12px 18px;line-height:1}
+.lb-close{top:8px;right:8px}
+.lb-prev{left:4px;top:50%;transform:translateY(-50%)}
+.lb-next{right:4px;top:50%;transform:translateY(-50%)}
+
+footer{text-align:center;padding:30px;background:var(--sage);font:italic 22px var(--serif)}
+
+@media(max-width:760px){
+  header{height:auto;padding:14px 5%;flex-direction:column;align-items:center;gap:10px}
+  nav{gap:11px;font-size:12px;max-width:100%;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  html{scroll-padding-top:100px}
+  .hero{grid-template-columns:1fr;padding:48px 7%}
+  .photo{min-height:300px;max-height:460px}
+  .quicklinks{grid-template-columns:repeat(2,1fr)}
+  .quicklinks a{border-bottom:1px solid var(--line-color)}
+  .quicklinks a:nth-child(2n){border-right:0}
+  .two-col{grid-template-columns:1fr}
+  section.content{padding:40px 7%}
+  h2{font-size:34px}
+  .countdown{padding:20px 4px;font-size:10px;letter-spacing:.06em;gap:9px}
+  .countdown strong{font-size:26px;margin-right:2px}
+  .panel{padding:22px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">♡ Nuestra boda</div>
+  <nav aria-label="Navegación principal">
+    <a href="#inicio">Inicio</a><a href="#historia">Nuestra historia</a><a href="#detalles">Detalles</a><a href="#rsvp">Asistencia</a><a href="#galeria">Fotos</a><a href="outfit.html">Outfit</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="inicio">
+    <div class="hero-copy">
+      <div class="eyebrow">Nos casamos</div>
+      <!-- LOGO: sube tu logo como img/logo.png (idealmente con fondo transparente).
+           Mientras no exista, se muestran los nombres en texto. -->
+      <h1><img class="logo" src="img/logo.png" alt="Cinthya &amp; Ender"
+           onerror="this.parentNode.innerHTML='Cinthya &lt;span class=&quot;amp&quot;&gt;&amp;amp;&lt;/span&gt;&lt;br&gt;Ender'"></h1>
+      <div class="rule"></div>
+      <div class="tagline">Una historia, un día, una vida juntos.</div>
+      <div class="date">12 de junio de 2027<br>Casa Aragón · Bogotá</div>
+    </div>
+    <!-- Para cambiar la foto: reemplaza img/portada.jpg por la nueva (mismo nombre) -->
+    <img class="photo" src="img/portada.jpg" alt="Cinthya y Ender" fetchpriority="high">
+  </section>
+
+  <div class="quicklinks">
+    <a href="#rsvp"><span class="symbol">♡</span>Confirmar asistencia</a>
+    <a href="#historia"><span class="symbol">▷</span>Nuestra historia</a>
+    <a href="#detalles"><span class="symbol">⌖</span>Cómo llegar</a>
+    <a href="#galeria"><span class="symbol">◇</span>Compartir fotos</a>
+  </div>
+
+  <section class="content two-col" id="historia">
+    <!-- Para cambiar la foto: reemplaza img/historia.jpg por la nueva (mismo nombre) -->
+    <img class="photo" src="img/historia.jpg" alt="Cinthya y Ender juntos" loading="lazy">
+    <div>
+      <h2>Nuestra historia</h2>
+      <p>Desde el primer momento, supimos que la vida juntos sería una aventura increíble.</p>
+    </div>
+  </section>
+
+  <section class="content" id="detalles">
+    <div class="panel">
+      <h2>Cuenta regresiva</h2>
+      <div class="countdown" id="countdown" aria-live="off">
+        <span class="u"><strong id="cd-days">--</strong>días</span>
+        <span class="u"><strong id="cd-hours">--</strong>horas</span>
+        <span class="u"><strong id="cd-mins">--</strong>min</span>
+        <span class="u"><strong id="cd-secs">--</strong>seg</span>
+      </div>
+
+      <h2>Ubicación y detalles</h2>
+      <p><strong>Lugar:</strong> Casa Aragón, a las afueras de Bogotá, Colombia</p>
+      <dl class="schedule">
+        <dt>Ceremonia</dt><dd>5:30 PM</dd>
+        <dt>Recepción</dt><dd>6:00 PM</dd>
+      </dl>
+      <p style="font-size:12px;margin:0">Horarios en hora de Colombia.</p>
+
+      <a class="button" href="https://maps.app.goo.gl/SvRTRWycByqbD9EF8" target="_blank" rel="noopener">Abrir en el GPS</a>
+      <a class="button" id="btn-google-cal" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Boda%20de%20Cinthya%20%26%20Ender&dates=20270612T223000Z/20270613T050000Z&location=Casa%20Arag%C3%B3n%2C%20Colombia&details=https%3A%2F%2Fbodaenderycinthya.github.io%2Finicio%2F">Agregar a Google Calendar</a>
+      <a class="button" id="btn-ics" href="#" download="boda-cinthya-ender.ics">Agregar al calendario (iPhone / Outlook)</a>
+
+      <iframe class="map-iframe" title="Mapa de Casa Aragón" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3975.659652861119!2d-74.2366554!3d4.8283726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f7f7667ec9a47%3A0x2f7302c96af718a9!2sCASA%20ARAG%C3%93N!5e0!3m2!1ses-419!2spa!4v1793075527346!5m2!1ses-419!2spa" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="palette-container">
+        <h3>Paleta de colores sugerida</h3>
+        <p style="margin:0 0 12px;font-size:13px;opacity:.8">Inspiración de tonos sugeridos para la vestimenta de nuestros invitados:</p>
+        <div class="palette-grid">
+          <div class="palette-item"><div class="color-circle" style="background:#b4bfa3"></div><span>Soft Sage</span></div>
+          <div class="palette-item"><div class="color-circle" style="background:#dccdb4"></div><span>Beige</span></div>
+          <div class="palette-item"><div class="color-circle" style="background:#ead8b1"></div><span>Champagne</span></div>
+          <div class="palette-item"><div class="color-circle" style="background:#f8f3e6"></div><span>Ivory</span></div>
+        </div>
+        <a class="button" href="outfit.html">Ver ideas de outfit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="content two-col" id="rsvp">
+    <div>
+      <h2>¿Nos acompañas?</h2>
+      <p>Nos encantaría celebrar este día contigo. Por favor, confirma tu asistencia completando el formulario.</p>
+    </div>
+    <div class="panel-rsvp">
+      <h3 style="font-size:30px;margin-bottom:10px">Confirmar asistencia</h3>
+      <iframe data-tally-src="https://tally.so/embed/1WAVN1?alignLeft=1&dynamicHeight=1" loading="lazy" width="100%" height="500" title="Confirmar asistencia"></iframe>
+    </div>
+  </section>
+
+  <section class="content" id="galeria">
+    <div class="panel">
+      <div class="gallery-head">
+        <div>
+          <h2>Galería de recuerdos</h2>
+          <p>¡Mira las fotos de la boda y sube las tuyas sin necesidad de registrarte!</p>
+        </div>
+        <div class="upload-box" id="upload-box">
+          <span class="button disabled" aria-disabled="true">📸 Subir fotos</span>
+          <small>Se habilita el día de la boda</small>
+        </div>
+      </div>
+      <div class="gallery" id="gallery"></div>
+      <p class="gallery-msg" id="gallery-msg">Cargando fotos…</p>
+      <button class="button gallery-more" id="gallery-more" hidden>Ver más fotos</button>
+    </div>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+      <img id="lb-img" alt="">
+      <button class="lb-close" aria-label="Cerrar">×</button>
+      <button class="lb-prev" aria-label="Foto anterior">‹</button>
+      <button class="lb-next" aria-label="Foto siguiente">›</button>
+    </div>
+  </section>
+</main>
+
+<footer>Gracias por formar parte de nuestra historia.</footer>
+
+<script>
+// Fecha y hora de la ceremonia, fijada en hora de Colombia (UTC-5),
+// para que la cuenta regresiva sea correcta sin importar desde dónde se abra.
+const EVENTO = new Date("2027-06-12T17:30:00-05:00").getTime();
+const FIN_EVENTO = new Date("2027-06-13T00:00:00-05:00").getTime();
+
+const pad = n => String(n).padStart(2, '0');
+let timer;
+function updateCountdown() {
+  const now = Date.now();
+  const diff = EVENTO - now;
+  if (diff <= 0) {
+    const msg = now < FIN_EVENTO ? '¡Hoy es el gran día!' : '¡Gracias por celebrar con nosotros!';
+    document.getElementById('countdown').outerHTML = '<div class="countdown-done">' + msg + '</div>';
+    clearInterval(timer);
+    return;
+  }
+  document.getElementById('cd-days').textContent = Math.floor(diff / 86400000);
+  document.getElementById('cd-hours').textContent = pad(Math.floor(diff % 86400000 / 3600000));
+  document.getElementById('cd-mins').textContent = pad(Math.floor(diff % 3600000 / 60000));
+  document.getElementById('cd-secs').textContent = pad(Math.floor(diff % 60000 / 1000));
+}
+timer = setInterval(updateCountdown, 1000);
+updateCountdown();
+
+// ===== Subir fotos: solo se habilita durante estas fechas (hora de Colombia) =====
+const SUBIR_DESDE = new Date("2027-06-12T00:00:00-05:00").getTime();
+const SUBIR_HASTA = new Date("2027-06-19T23:59:00-05:00").getTime();  // una semana después
+const SUBIR_LINK  = 'https://www.dropbox.com/request/soqvwesodn5564kklb27';
+(function () {
+  const ahora = Date.now();
+  // Para probarlo antes de la boda: abre la página con ?probar-fotos al final de la dirección
+  const prueba = new URLSearchParams(location.search).has('probar-fotos');
+  const box = document.getElementById('upload-box');
+  if (prueba || (ahora >= SUBIR_DESDE && ahora <= SUBIR_HASTA)) {
+    box.innerHTML = '<a class="button solid" href="' + SUBIR_LINK + '" target="_blank" rel="noopener">📸 Subir fotos ahora</a>';
+  } else if (ahora > SUBIR_HASTA) {
+    box.querySelector('small').textContent = 'La subida de fotos ya cerró. ¡Gracias!';
+  }
+})();
+
+// Archivo .ics para iPhone, Outlook y otros calendarios
+const ics = [
+  'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Boda Cinthya y Ender//ES',
+  'BEGIN:VEVENT',
+  'UID:boda-cinthya-ender-20270612@bodaenderycinthya.github.io',
+  'DTSTAMP:20261101T000000Z',
+  'DTSTART:20270612T223000Z', 'DTEND:20270613T050000Z',
+  'SUMMARY:Boda de Cinthya & Ender',
+  'LOCATION:Casa Aragón\\, Colombia',
+  'URL:https://bodaenderycinthya.github.io/inicio/',
+  'END:VEVENT', 'END:VCALENDAR'
+].join('\r\n');
+document.getElementById('btn-ics').href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+</script>
+
+<!-- Script oficial de Tally: ajusta la altura del formulario automáticamente -->
+<script>
+(function () {
+  function load() { if (window.Tally) Tally.loadEmbeds(); else document.querySelectorAll('iframe[data-tally-src]:not([src])').forEach(e => e.src = e.dataset.tallySrc); }
+  const s = document.createElement('script');
+  s.src = 'https://tally.so/widgets/embed.js';
+  s.onload = load; s.onerror = load;
+  document.body.appendChild(s);
+})();
+</script>
+<script>
+// ===== Galería de fotos (Google Drive, solo visualización) =====
+// Ver INSTRUCCIONES-GALERIA.md para crear el enlace (Google Apps Script, gratis).
+const GALERIA_URL = 'https://script.google.com/macros/s/AKfycbxwueaFsvx9__hZ6czNivlGTHtYF_UJBStDKsfn2eMB5E_luMf1DIlFyGEv6fCxhYckwA/exec';   // <-- pega aquí el enlace que termina en /exec
+const POR_PAGINA = 24;
+
+(function () {
+  const grid = document.getElementById('gallery');
+  const msg = document.getElementById('gallery-msg');
+  const more = document.getElementById('gallery-more');
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lb-img');
+  let fotos = [], mostradas = 0, actual = 0;
+
+  const url = (id, w) => 'https://lh3.googleusercontent.com/d/' + id + '=w' + w;
+  // Bloquea clic derecho y "mantener presionado" sobre las fotos
+  [grid, lb].forEach(el => el.addEventListener('contextmenu', e => e.preventDefault()));
+
+  function pintar() {
+    fotos.slice(mostradas, mostradas + POR_PAGINA).forEach((f, i) => {
+      const n = mostradas + i;
+      const b = document.createElement('button');
+      b.setAttribute('aria-label', 'Ver foto ' + (n + 1));
+      b.innerHTML = '<img loading="lazy" draggable="false" alt="Foto de la boda ' + (n + 1) + '" src="' + url(f.id, 400) + '">';
+      b.onclick = () => abrir(n);
+      grid.appendChild(b);
+    });
+    mostradas = Math.min(mostradas + POR_PAGINA, fotos.length);
+    more.hidden = mostradas >= fotos.length;
+  }
+  function abrir(n) {
+    actual = (n + fotos.length) % fotos.length;
+    lbImg.src = url(fotos[actual].id, 1600);
+    lbImg.alt = 'Foto de la boda ' + (actual + 1);
+    lb.classList.add('open');
+  }
+  const cerrar = () => lb.classList.remove('open');
+  lb.querySelector('.lb-close').onclick = cerrar;
+  lb.querySelector('.lb-prev').onclick = () => abrir(actual - 1);
+  lb.querySelector('.lb-next').onclick = () => abrir(actual + 1);
+  lb.addEventListener('click', e => { if (e.target === lb) cerrar(); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') cerrar();
+    if (e.key === 'ArrowLeft') abrir(actual - 1);
+    if (e.key === 'ArrowRight') abrir(actual + 1);
+  });
+  let x0 = null;
+  lb.addEventListener('touchstart', e => x0 = e.touches[0].clientX, {passive: true});
+  lb.addEventListener('touchend', e => {
+    if (x0 === null) return;
+    const dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 50) abrir(actual + (dx < 0 ? 1 : -1));
+  });
+  more.onclick = pintar;
+
+  if (!GALERIA_URL) { msg.textContent = 'Muy pronto podrás ver aquí las fotos de la boda.'; return; }
+  async function cargar() {
+    const r = await fetch(GALERIA_URL);
+    if (!r.ok) throw new Error(r.status);
+    fotos = (await r.json()).files || [];
+  }
+  cargar().then(() => {
+    if (!fotos.length) { msg.textContent = 'Aún no hay fotos. ¡Sé el primero en compartir las tuyas!'; return; }
+    msg.hidden = true; pintar();
+  }).catch(() => { msg.textContent = 'No pudimos cargar las fotos en este momento. Intenta más tarde.'; });
+})();
+</script>
+</body>
+</html>
